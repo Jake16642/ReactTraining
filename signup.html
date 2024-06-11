@@ -4,24 +4,33 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=, initial-scale=1.0">
-    <title>Document</title>
+    <title>HW1_JakeTran_SignupPage</title>
+    <link rel="stylesheet" href="signup.css">
 </head>
 
 <body>
     <form>
         <h1> Sign Up </h1>
-        <input type="text" id="fname" name="fname" placeholder="First Name">
-        <input type="text" id="lname" name="lname" placeholder="Last Name"><br>
-        <input type="number" id="phone" name="phone" placeholder="Mobile No."><br>
-        <input type="email" id="email" name="email" placeholder="Email Address"><br>
-        <input type="password" id="password" name="password" placeholder="Password">
-        <input type="password" id="repassword" name="re_password" placeholder="Confirm Password"><br>
-        <input type="checkbox" id="agree" name="agree">
-        <label for="agree"> I Agree</label><br>
+        <div id="inputs">
+            <input type="text" id="fname" name="fname" placeholder="First Name">
+            <input type="text" id="lname" name="lname" placeholder="Last Name">
+        </div>
+        <input type="number" id="phone" name="phone" placeholder="Mobile No.">
+        <input type="email" id="email" name="email" placeholder="Email Address">
+        <div id="inputs">
+            <input type="password" id="password" name="password" placeholder="Password">
+            <input type="password" id="repassword" name="re_password" placeholder="Confirm Password">
+        </div>
+        <span id="tac-radio-container">
+            <input type="checkbox" id="agree" name="agree">
+            <label for="agree"> I Agree</label><br>
+        </span>
         <p>By clicking Register, you agree to the Terms and Conditions set out by this site, including our Cookie Use.
         </p>
-        <button>Register</button>
-        <button>Sign In</button>
+        <div id="buttons">
+            <button id="register">Register</button>
+            <button id="signIn">Sign In</button>
+        </div>
     </form>
 </body>
 

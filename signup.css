@@ -1,0 +1,59 @@
+form {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 5% 20% 0 20%;
+    gap: 15px
+}
+
+h1 {
+    text-align: center;
+}
+
+input {
+    height: 40px;
+    border-radius: 8px;
+    border-color: gray;
+    padding: 0 0 0 15px;
+    font-size: large;
+}
+
+#inputs {
+    display: flex;
+    gap: 10px;
+    flex: 1;
+}
+
+#tac-radio-container {
+    display: flex;
+    width: 35%;
+    align-items: center;
+}
+
+p {
+    align-self: flex-end;
+    text-align: right;
+    width: 100%;
+
+}
+
+#buttons {
+    display: flex;
+    gap: 10px;
+}
+
+#register {
+    background-color: rgb(38, 114, 237);
+    border-radius: 8px;
+    color: white;
+    height: 45px;
+    flex: 1;
+}
+
+#signIn {
+    background-color: rgb(86, 186, 50);
+    border-radius: 8px;
+    color: white;
+    height: 45px;
+    flex: 1
+}
