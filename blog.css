@@ -1,0 +1,59 @@
+h1 {
+    text-decoration: underline;
+    text-align: center;
+}
+
+h2 {
+    font-size: 12px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+h3 {
+    font-size: 25px;
+    margin-top: -3px;
+}
+
+h4 {
+    font-size: 12px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgb(179, 174, 174);
+    margin-top: -25px;
+}
+
+p {
+    font-size: 12px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#link {
+    margin-top: 50px
+}
+
+#boxes_organized {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+#box {
+    background-color: white;
+    border: 1px solid #ddd;
+    margin: 20px;
+    padding: 20px;
+    width: 500px;
+    border-width: 5px;
+    box-sizing: border-box;
+}
+
+footer {
+    text-align: center;
+    background-color: rgb(240, 238, 238);
+    padding: 20px;
+    color: gray;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 12px;
+}
+
+a {
+    color: rgb(22, 96, 233);
+}
